@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>7afadd0f-6111-4ece-8301-23f6316e9b78</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Burger.Common.Web\Burger.Common.Web.csproj" />
+    <ProjectReference Include="..\Burger.Services.Restaurants.Application\Burger.Services.Restaurants.Application.csproj" />
+    <ProjectReference Include="..\Burger.Services.Restaurants.Infrastructure\Burger.Services.Restaurants.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>

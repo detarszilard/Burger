@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Burger.Common.EntityFrameworkCore\Burger.Common.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Burger.Services.Restaurants.Domain\Burger.Services.Restaurants.Domain.csproj" />
+    <ProjectReference Include="..\Burger.Services.Restaurants.Infrastructure\Burger.Services.Restaurants.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

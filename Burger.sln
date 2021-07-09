@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4270BB7D-90D4-4C83-9315-04268B72D9A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2506AE8D-BA4D-43DD-AA94-AD71D977E528}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1B7D1DDC-7276-4F67-BCBA-B08B319BA6A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A85EE5F4-7862-48B0-BBF4-FB49961F5A8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Burger.Common", "src\Common\Burger.Common\Burger.Common.csproj", "{A4CB3EC8-5FE2-48DE-92A0-981D2D442A6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Burger.Common.EntityFrameworkCore", "src\Common\Burger.Common.EntityFrameworkCore\Burger.Common.EntityFrameworkCore.csproj", "{95E085EC-55F2-49A9-99F2-CB04C4B07A49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Restaurants", "Restaurants", "{B1A40527-BE2A-4FE7-B8E4-960058CBF105}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{69B6448B-3FA8-4E94-9228-F6C2E5827FC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Burger.Services.Restaurants.Domain", "src\Services\Restaurants\Burger.Services.Restaurants.Domain\Burger.Services.Restaurants.Domain.csproj", "{022A3E2E-F90A-4F78-8A9A-6C02A2B1EE3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Burger.Services.Restaurants.Infrastructure", "src\Services\Restaurants\Burger.Services.Restaurants.Infrastructure\Burger.Services.Restaurants.Infrastructure.csproj", "{B17935EE-94ED-4D60-88B8-32F26CF8BEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Burger.Services.Restaurants.Web", "src\Services\Restaurants\Burger.Services.Restaurants.Web\Burger.Services.Restaurants.Web.csproj", "{A1F089D9-9B11-4AE3-9E78-D6EB5C20FC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Burger.Common.Web", "src\Common\Burger.Common.Web\Burger.Common.Web.csproj", "{F419ABE3-CC25-4279-B6BB-B2C3ACBF5342}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Burger.Services.Restaurants.Application", "src\Services\Restaurants\Burger.Services.Restaurants.Application\Burger.Services.Restaurants.Application.csproj", "{01D76E17-21FD-4C86-95C7-0B7D7EE27FE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{0861490F-0162-42FA-8969-1BDF002BD285}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4CB3EC8-5FE2-48DE-92A0-981D2D442A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CB3EC8-5FE2-48DE-92A0-981D2D442A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CB3EC8-5FE2-48DE-92A0-981D2D442A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CB3EC8-5FE2-48DE-92A0-981D2D442A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E085EC-55F2-49A9-99F2-CB04C4B07A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E085EC-55F2-49A9-99F2-CB04C4B07A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E085EC-55F2-49A9-99F2-CB04C4B07A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E085EC-55F2-49A9-99F2-CB04C4B07A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022A3E2E-F90A-4F78-8A9A-6C02A2B1EE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022A3E2E-F90A-4F78-8A9A-6C02A2B1EE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022A3E2E-F90A-4F78-8A9A-6C02A2B1EE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022A3E2E-F90A-4F78-8A9A-6C02A2B1EE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17935EE-94ED-4D60-88B8-32F26CF8BEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17935EE-94ED-4D60-88B8-32F26CF8BEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17935EE-94ED-4D60-88B8-32F26CF8BEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17935EE-94ED-4D60-88B8-32F26CF8BEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F089D9-9B11-4AE3-9E78-D6EB5C20FC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F089D9-9B11-4AE3-9E78-D6EB5C20FC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F089D9-9B11-4AE3-9E78-D6EB5C20FC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F089D9-9B11-4AE3-9E78-D6EB5C20FC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F419ABE3-CC25-4279-B6BB-B2C3ACBF5342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F419ABE3-CC25-4279-B6BB-B2C3ACBF5342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F419ABE3-CC25-4279-B6BB-B2C3ACBF5342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F419ABE3-CC25-4279-B6BB-B2C3ACBF5342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D76E17-21FD-4C86-95C7-0B7D7EE27FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D76E17-21FD-4C86-95C7-0B7D7EE27FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D76E17-21FD-4C86-95C7-0B7D7EE27FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D76E17-21FD-4C86-95C7-0B7D7EE27FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B7D1DDC-7276-4F67-BCBA-B08B319BA6A2} = {4270BB7D-90D4-4C83-9315-04268B72D9A7}
+		{A85EE5F4-7862-48B0-BBF4-FB49961F5A8A} = {4270BB7D-90D4-4C83-9315-04268B72D9A7}
+		{A4CB3EC8-5FE2-48DE-92A0-981D2D442A6F} = {1B7D1DDC-7276-4F67-BCBA-B08B319BA6A2}
+		{95E085EC-55F2-49A9-99F2-CB04C4B07A49} = {1B7D1DDC-7276-4F67-BCBA-B08B319BA6A2}
+		{B1A40527-BE2A-4FE7-B8E4-960058CBF105} = {A85EE5F4-7862-48B0-BBF4-FB49961F5A8A}
+		{69B6448B-3FA8-4E94-9228-F6C2E5827FC7} = {A85EE5F4-7862-48B0-BBF4-FB49961F5A8A}
+		{022A3E2E-F90A-4F78-8A9A-6C02A2B1EE3E} = {B1A40527-BE2A-4FE7-B8E4-960058CBF105}
+		{B17935EE-94ED-4D60-88B8-32F26CF8BEEF} = {B1A40527-BE2A-4FE7-B8E4-960058CBF105}
+		{A1F089D9-9B11-4AE3-9E78-D6EB5C20FC3C} = {B1A40527-BE2A-4FE7-B8E4-960058CBF105}
+		{F419ABE3-CC25-4279-B6BB-B2C3ACBF5342} = {1B7D1DDC-7276-4F67-BCBA-B08B319BA6A2}
+		{01D76E17-21FD-4C86-95C7-0B7D7EE27FE2} = {B1A40527-BE2A-4FE7-B8E4-960058CBF105}
+		{0861490F-0162-42FA-8969-1BDF002BD285} = {A85EE5F4-7862-48B0-BBF4-FB49961F5A8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62452875-362A-4612-8054-ECB0BD7CD834}
+	EndGlobalSection
+EndGlobal
